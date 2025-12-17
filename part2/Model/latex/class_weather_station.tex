@@ -1,0 +1,96 @@
+\doxysection{Weather\+Station Class Reference}
+\hypertarget{class_weather_station}{}\label{class_weather_station}\index{WeatherStation@{WeatherStation}}
+
+
+Central controller of the Weather Station system.  
+
+
+
+
+{\ttfamily \#include $<$Weather\+Station.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_weather_station_a88b08f2115b345c3a0f630a874c63539}\label{class_weather_station_a88b08f2115b345c3a0f630a874c63539} 
+void {\bfseries Logintoweatherstation} ()
+\begin{DoxyCompactList}\small\item\em Logs into the Weather Station system. \end{DoxyCompactList}\item 
+\Hypertarget{class_weather_station_a31f0e05df2b0104113428a40bd88a094}\label{class_weather_station_a31f0e05df2b0104113428a40bd88a094} 
+void {\bfseries Report\+Weather} ()
+\begin{DoxyCompactList}\small\item\em Reports current weather data to the user interface. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_weather_station_ad9010af22ece972cb7b4a6924f0361bd}{Reconfigure}} (const char \texorpdfstring{$\ast$}{*}Instruments)
+\begin{DoxyCompactList}\small\item\em Reconfigures the specified instruments. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_weather_station_ad9b05541679f8db6f8848465d363609c}{Shut\+Down}} (const char \texorpdfstring{$\ast$}{*}Instruments)
+\begin{DoxyCompactList}\small\item\em Shuts down the specified instruments. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_weather_station_aca8ba2bd7093fe12a830021395456ba2}{restart}} (const char \texorpdfstring{$\ast$}{*}Instruments)
+\begin{DoxyCompactList}\small\item\em Restarts the specified instruments. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_weather_station_abca84b060a96cb17acd1bd7bfb063d27}\label{class_weather_station_abca84b060a96cb17acd1bd7bfb063d27} 
+int {\bfseries ID}
+\item 
+\Hypertarget{class_weather_station_ae147339d946beb2cbcc7afed4ca25168}\label{class_weather_station_ae147339d946beb2cbcc7afed4ca25168} 
+int {\bfseries Port1}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Central controller of the Weather Station system. 
+
+Manages system-\/level operations such as user access, weather reporting, and instrument configuration. 
+
+\label{doc-func-members}
+\Hypertarget{class_weather_station_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_weather_station_ad9010af22ece972cb7b4a6924f0361bd}\index{WeatherStation@{WeatherStation}!Reconfigure@{Reconfigure}}
+\index{Reconfigure@{Reconfigure}!WeatherStation@{WeatherStation}}
+\doxysubsubsection{\texorpdfstring{Reconfigure()}{Reconfigure()}}
+{\footnotesize\ttfamily \label{class_weather_station_ad9010af22ece972cb7b4a6924f0361bd} 
+void Weather\+Station\+::\+Reconfigure (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{Instruments}{}\end{DoxyParamCaption})}
+
+
+
+Reconfigures the specified instruments. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instruments} & Identifier(s) of instruments to reconfigure. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_weather_station_aca8ba2bd7093fe12a830021395456ba2}\index{WeatherStation@{WeatherStation}!restart@{restart}}
+\index{restart@{restart}!WeatherStation@{WeatherStation}}
+\doxysubsubsection{\texorpdfstring{restart()}{restart()}}
+{\footnotesize\ttfamily \label{class_weather_station_aca8ba2bd7093fe12a830021395456ba2} 
+void Weather\+Station\+::restart (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{Instruments}{}\end{DoxyParamCaption})}
+
+
+
+Restarts the specified instruments. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instruments} & Identifier(s) of instruments to restart. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_weather_station_ad9b05541679f8db6f8848465d363609c}\index{WeatherStation@{WeatherStation}!ShutDown@{ShutDown}}
+\index{ShutDown@{ShutDown}!WeatherStation@{WeatherStation}}
+\doxysubsubsection{\texorpdfstring{ShutDown()}{ShutDown()}}
+{\footnotesize\ttfamily \label{class_weather_station_ad9b05541679f8db6f8848465d363609c} 
+void Weather\+Station\+::\+Shut\+Down (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{Instruments}{}\end{DoxyParamCaption})}
+
+
+
+Shuts down the specified instruments. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instruments} & Identifier(s) of instruments to shut down. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_weather_station_8h}{Weather\+Station.\+h}}\item 
+\mbox{\hyperlink{_weather_station_8cpp}{Weather\+Station.\+cpp}}\end{DoxyCompactItemize}

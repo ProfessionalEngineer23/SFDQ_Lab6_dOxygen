@@ -1,0 +1,66 @@
+\doxysection{Microcontroller\+Element Class Reference}
+\hypertarget{class_microcontroller_element}{}\label{class_microcontroller_element}\index{MicrocontrollerElement@{MicrocontrollerElement}}
+
+
+Central controller of the Weather Station system.  
+
+
+
+
+{\ttfamily \#include $<$Microcontroller\+Element.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_microcontroller_element_aae651c33e4bb44bf8a792e780232f0dc}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Updates sensor data used by the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_microcontroller_element_a573539c332c8835c8a3e53078e9661ab}{display\+Current\+Conditions}} ()
+\begin{DoxyCompactList}\small\item\em Displays the current weather conditions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_microcontroller_element_a9c5e7d242e7d5ad0a04d006a84ca954d}{forecast\+Next\+Day}} ()
+\begin{DoxyCompactList}\small\item\em Generates a forecast for the next day. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Central controller of the Weather Station system. 
+
+Responsible for coordinating sensor data acquisition, updating display modules, and triggering weather forecasts. 
+
+\label{doc-func-members}
+\Hypertarget{class_microcontroller_element_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_microcontroller_element_a573539c332c8835c8a3e53078e9661ab}\index{MicrocontrollerElement@{MicrocontrollerElement}!displayCurrentConditions@{displayCurrentConditions}}
+\index{displayCurrentConditions@{displayCurrentConditions}!MicrocontrollerElement@{MicrocontrollerElement}}
+\doxysubsubsection{\texorpdfstring{displayCurrentConditions()}{displayCurrentConditions()}}
+{\footnotesize\ttfamily \label{class_microcontroller_element_a573539c332c8835c8a3e53078e9661ab} 
+void Microcontroller\+Element\+::display\+Current\+Conditions (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Displays the current weather conditions. 
+
+Triggers the output of real-\/time weather data to the current conditions display module. \Hypertarget{class_microcontroller_element_a9c5e7d242e7d5ad0a04d006a84ca954d}\index{MicrocontrollerElement@{MicrocontrollerElement}!forecastNextDay@{forecastNextDay}}
+\index{forecastNextDay@{forecastNextDay}!MicrocontrollerElement@{MicrocontrollerElement}}
+\doxysubsubsection{\texorpdfstring{forecastNextDay()}{forecastNextDay()}}
+{\footnotesize\ttfamily \label{class_microcontroller_element_a9c5e7d242e7d5ad0a04d006a84ca954d} 
+void Microcontroller\+Element\+::forecast\+Next\+Day (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Generates a forecast for the next day. 
+
+Uses available weather data to determine predicted temperature conditions for the upcoming day. \Hypertarget{class_microcontroller_element_aae651c33e4bb44bf8a792e780232f0dc}\index{MicrocontrollerElement@{MicrocontrollerElement}!Update@{Update}}
+\index{Update@{Update}!MicrocontrollerElement@{MicrocontrollerElement}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_microcontroller_element_aae651c33e4bb44bf8a792e780232f0dc} 
+void Microcontroller\+Element\+::\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Updates sensor data used by the system. 
+
+Retrieves the latest readings from connected sensors and prepares the data for display and forecasting. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_microcontroller_element_8h}{Microcontroller\+Element.\+h}}\item 
+\mbox{\hyperlink{_microcontroller_element_8cpp}{Microcontroller\+Element.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,102 @@
+\doxysection{Weather\+Data Class Reference}
+\hypertarget{class_weather_data}{}\label{class_weather_data}\index{WeatherData@{WeatherData}}
+
+
+Represents the weather data collection and processing system.  
+
+
+
+
+{\ttfamily \#include $<$Weather\+Data.\+h$>$}
+
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_weather_data_aaf11cd66b071e2a14667f333d7e72023}{air\+Temp}}
+\item 
+float \mbox{\hyperlink{class_weather_data_ad0386d481c41d99c0f32aba0329fe26d}{ground\+Temp}}
+\item 
+float \mbox{\hyperlink{class_weather_data_a036102304946455ff03a534a47192b5c}{wind\+Speeds}}
+\item 
+float \mbox{\hyperlink{class_weather_data_ab2ff325f2aa7b637ab568616b9530371}{pressures}}
+\item 
+float \mbox{\hyperlink{class_weather_data_aada0c8e9456f7df1e638cb84211c4a26}{rainfall}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_weather_data_a5da950b6167ce0ebd980889c69afe61c}{collect}} ()
+\begin{DoxyCompactList}\small\item\em Collects weather readings from available sensors. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_weather_data_a820f5c2fba50e6e17a1162a914afd5bc}{summarise}} ()
+\begin{DoxyCompactList}\small\item\em Produces a summary of the collected weather data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the weather data collection and processing system. 
+
+This class is responsible for collecting, summarising, and managing various weather data points such as air temperature, ground temperature, wind speeds, pressures, and rainfall. 
+
+\label{doc-func-members}
+\Hypertarget{class_weather_data_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_weather_data_a5da950b6167ce0ebd980889c69afe61c}\index{WeatherData@{WeatherData}!collect@{collect}}
+\index{collect@{collect}!WeatherData@{WeatherData}}
+\doxysubsubsection{\texorpdfstring{collect()}{collect()}}
+{\footnotesize\ttfamily \label{class_weather_data_a5da950b6167ce0ebd980889c69afe61c} 
+void Weather\+Data\+::collect (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Collects weather readings from available sensors. 
+
+Retrieves the latest temperature, wind speed, and air pressure values and stores them internally for later use. \Hypertarget{class_weather_data_a820f5c2fba50e6e17a1162a914afd5bc}\index{WeatherData@{WeatherData}!summarise@{summarise}}
+\index{summarise@{summarise}!WeatherData@{WeatherData}}
+\doxysubsubsection{\texorpdfstring{summarise()}{summarise()}}
+{\footnotesize\ttfamily \label{class_weather_data_a820f5c2fba50e6e17a1162a914afd5bc} 
+void Weather\+Data\+::summarise (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Produces a summary of the collected weather data. 
+
+Prepares weather information to be used by display and forecasting modules. 
+
+\label{doc-variable-members}
+\Hypertarget{class_weather_data_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_weather_data_aaf11cd66b071e2a14667f333d7e72023}\index{WeatherData@{WeatherData}!airTemp@{airTemp}}
+\index{airTemp@{airTemp}!WeatherData@{WeatherData}}
+\doxysubsubsection{\texorpdfstring{airTemp}{airTemp}}
+{\footnotesize\ttfamily \label{class_weather_data_aaf11cd66b071e2a14667f333d7e72023} 
+float Weather\+Data\+::air\+Temp}
+
+Air temperature in degrees Celsius. \Hypertarget{class_weather_data_ad0386d481c41d99c0f32aba0329fe26d}\index{WeatherData@{WeatherData}!groundTemp@{groundTemp}}
+\index{groundTemp@{groundTemp}!WeatherData@{WeatherData}}
+\doxysubsubsection{\texorpdfstring{groundTemp}{groundTemp}}
+{\footnotesize\ttfamily \label{class_weather_data_ad0386d481c41d99c0f32aba0329fe26d} 
+float Weather\+Data\+::ground\+Temp}
+
+Ground temperature in degrees Celsius. \Hypertarget{class_weather_data_ab2ff325f2aa7b637ab568616b9530371}\index{WeatherData@{WeatherData}!pressures@{pressures}}
+\index{pressures@{pressures}!WeatherData@{WeatherData}}
+\doxysubsubsection{\texorpdfstring{pressures}{pressures}}
+{\footnotesize\ttfamily \label{class_weather_data_ab2ff325f2aa7b637ab568616b9530371} 
+float Weather\+Data\+::pressures}
+
+Air pressure in hectopascals (h\+Pa). \Hypertarget{class_weather_data_aada0c8e9456f7df1e638cb84211c4a26}\index{WeatherData@{WeatherData}!rainfall@{rainfall}}
+\index{rainfall@{rainfall}!WeatherData@{WeatherData}}
+\doxysubsubsection{\texorpdfstring{rainfall}{rainfall}}
+{\footnotesize\ttfamily \label{class_weather_data_aada0c8e9456f7df1e638cb84211c4a26} 
+float Weather\+Data\+::rainfall}
+
+Rainfall in millimetres (mm). \Hypertarget{class_weather_data_a036102304946455ff03a534a47192b5c}\index{WeatherData@{WeatherData}!windSpeeds@{windSpeeds}}
+\index{windSpeeds@{windSpeeds}!WeatherData@{WeatherData}}
+\doxysubsubsection{\texorpdfstring{windSpeeds}{windSpeeds}}
+{\footnotesize\ttfamily \label{class_weather_data_a036102304946455ff03a534a47192b5c} 
+float Weather\+Data\+::wind\+Speeds}
+
+Wind speed in metres per second. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_weather_data_8h}{Weather\+Data.\+h}}\item 
+\mbox{\hyperlink{_weather_data_8cpp}{Weather\+Data.\+cpp}}\end{DoxyCompactItemize}

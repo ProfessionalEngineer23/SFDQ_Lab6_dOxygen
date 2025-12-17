@@ -1,0 +1,37 @@
+\doxysection{Weather\+Station.\+h}
+\hypertarget{_weather_station_8h_source}{}\label{_weather_station_8h_source}\mbox{\hyperlink{_weather_station_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#ifndef\ \_WEATHERSTATION\_H}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ \_WEATHERSTATION\_H}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_weather_data_8h}{WeatherData.h}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_current_conditions_8h}{CurrentConditions.h}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_forecast_display_8h}{ForecastDisplay.h}}"{}}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_weather_station}{WeatherStation}}\ \{}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_weather_data}{WeatherData}}\ weatherData;}
+\DoxyCodeLine{00025\ \ \ \ \ \mbox{\hyperlink{class_current_conditions}{CurrentConditions}}\ currentConditions;}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_forecast_display}{ForecastDisplay}}\ forecastDisplay;}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{public}:\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{int}\ ID;\ \textcolor{comment}{//\ Weather\ station\ identifier.}}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{int}\ Port1;\ \textcolor{comment}{//\ Communication\ port\ 1.}}
+\DoxyCodeLine{00031\ \ \ \ \ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_weather_station_a88b08f2115b345c3a0f630a874c63539}{Logintoweatherstation}}();}
+\DoxyCodeLine{00034\ \ \ \ \ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_weather_station_a31f0e05df2b0104113428a40bd88a094}{ReportWeather}}();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00041\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_weather_station_ad9010af22ece972cb7b4a6924f0361bd}{Reconfigure}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ Instruments);}
+\DoxyCodeLine{00042\ \ \ \ \ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_weather_station_ad9b05541679f8db6f8848465d363609c}{ShutDown}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ Instruments);}
+\DoxyCodeLine{00047\ \ \ \ \ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_weather_station_aca8ba2bd7093fe12a830021395456ba2}{restart}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ Instruments);}
+\DoxyCodeLine{00052\ \};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\_WEATHERSTATION\_H}}
+
+\end{DoxyCode}
