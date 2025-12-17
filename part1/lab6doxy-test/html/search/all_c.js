@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['setheight_0',['setHeight',['../class_shape.html#a25bae3a4a703908f98b50ebd951dfdc1',1,'Shape']]],
-  ['setwidth_1',['setWidth',['../class_shape.html#a8b870509c90bc2523d1ee4e2d7335b7a',1,'Shape']]],
-  ['shape_2',['Shape',['../class_shape.html',1,'']]],
-  ['shape_2ecpp_3',['Shape.cpp',['../_shape_8cpp.html',1,'']]]
+  ['part_201_3a_20introduction_20to_20doxygen_0',['Lab 6 – Part 1: Introduction to dOxygen',['../md__r_e_a_d_m_e.html',1,'']]]
 ];

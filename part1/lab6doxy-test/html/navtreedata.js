@@ -25,7 +25,12 @@
 var NAVTREE =
 [
   [ "My Project", "index.html", [
-    [ "Lab 6 – Part 1: Introduction to dOxygen", "index.html", "index" ],
+    [ "Lab 6 – Part 1: Introduction to dOxygen", "md__r_e_a_d_m_e.html", [
+      [ "Overview", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
+      [ "Key Concepts Demonstrated", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "Command used for generating dOxygen config:", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
+      [ "Command used to generate the documentation:", "md__r_e_a_d_m_e.html#autotoc_md4", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

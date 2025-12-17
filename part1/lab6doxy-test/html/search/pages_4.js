@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['introduction_20to_20doxygen_0',['Lab 6 – Part 1: Introduction to dOxygen',['../index.html',1,'']]]
+  ['for_20generating_20doxygen_20config_3a_0',['Command used for generating dOxygen config:',['../md__r_e_a_d_m_e.html#autotoc_md3',1,'']]]
 ];
